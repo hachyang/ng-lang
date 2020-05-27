@@ -7,7 +7,7 @@
     Hello i18n!
 </source>
         <target>
-    你好 i18n！
+    你好 Angular i18n！
 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\app.component.ts</context>
