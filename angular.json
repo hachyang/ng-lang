@@ -150,6 +150,18 @@
               "devServerTarget": "angular.io-example:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {},
+          "configurations": {
+            "production": {
+              "browserTarget": "angular.io-example:build:production"
+            },
+            "fr": {
+              "browserTarget": "angular.io-example:build:fr"
+            }
+          }
         }
       }
     }
